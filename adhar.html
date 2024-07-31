@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        i {
+            padding-left: 5px;
+        }
+
+        button {
+            font-size: 1.2rem;
+            padding: 5px;
+            border: none;
+            background-color: blue;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-radius: 5px;
+
+        }
+
+        li {
+            list-style: none;
+            font-size: 1.3rem;
+            padding: 10px;
+       
+        }
+
+        ul {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        div {
+            display: none;
+        }
+
+        li b:hover {
+            background-color: white;
+            font-size: 20px;
+        }
+
+        button:hover {
+            text-decoration: underline;
+        }
+
+        li:hover {
+            background-color: aqua;
+        }
+
+        .adhhar:focus-within~.adhaar {
+            display: block;
+            background-color: rgb(167, 207, 140);
+        }
+
+        .service:focus-within~.service1 {
+            display: block;
+            background-color: rgb(178, 181, 184);
+
+        }
+
+        .support:focus-within~.support1 {
+            display: block;
+            background-color: lightgreen;
+        }
+        .eco:focus-within~.eco1{
+            display: block;
+            background-color: limegreen;
+        }
+        .manage:focus-within ~ .manage1{
+            display: block;
+            background-color: goldenrod;
+        }
+        header {
+            background-color: blue;
+            margin-top: 20px;
+        }
+
+        button {
+            padding-left: 60px;
+        }
+
+        .lion {
+            width: 140px;
+        }
+
+        .adhaaricon {
+            width: 160px;
+            position: absolute;
+            right: 0px;
+            top: 30px;
+        }
+
+        p {
+            position: absolute;
+            top: 30px;
+            left: 120px;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <img src="https://www.indembhelsinki.gov.in/images/asokaemblem.jpg" alt="" class="lion">
+    <p><b>Unique Identification Authority of India <br> </b>Government of India</p>
+    <img src="https://images.moneycontrol.com/static-mcnews/2019/02/aadhar1-770x433.jpg?impolicy=website&width=770&height=431"
+        alt="" class="adhaaricon">
+
+    <header>
+        <button class="adhhar">Adhaar card<i class="fa-solid fa-angle-down"></i></button>
+        <button class="service">UIDAI service<i class="fa-solid fa-angle-down"></i></button>
+        <button class="eco">EcoSystem<i class="fa-solid fa-angle-down"></i></button>
+        <button class="manage">Media & Resources<i class="fa-solid fa-angle-down"></i></button>
+        <button class="support">Contact & Support<i class="fa-solid fa-angle-down"></i></button>
+
+
+        <div class="adhaar">
+            <ul>
+                <li><b>update Adhaar card</b></li>
+                <li>Document update</li>
+                <li>Check Adhaar status</li>
+                <li>Enroll and update the form</li>
+                <li>Adhaar update History</li>
+            </ul>
+            <ul>
+                <li><b>Get Adhaar</b></li>
+                <li>update Cards</li>
+                <li>Adhaar Status </li>
+                <li>Verification process</li>
+                <li>PVC card</li>
+            </ul>
+            <ul>
+                <li><b>Adhaar service</b></li>
+                <li>Verify the Adhaar card</li>
+                <li>Verify email</li>
+                <li>Verify phone number</li>
+                <li>Verify pan card</li>
+            </ul>
+        </div>
+        <div class="service1">
+            <ul>
+                <li><b>Unqiue Identification</b></li>
+                <li>vision & mission</li>
+                <li>Organization Struture</li>
+                <li>Finance & account</li>
+                <li>Contact us</li>
+            </ul>
+            <ul>
+                <li><b>Leg Rules</b></li>
+                <li>Rules</li>
+                <li>Notification </li>
+                <li>Regulations</li>
+                <li>PVC card</li>
+            </ul>
+            <ul>
+                <li><b>Verification</b></li>
+                <li>Verify the Adhaar card</li>
+                <li>Verify email</li>
+                <li>Verify phone number</li>
+                <li>Verify pan card</li>
+            </ul>
+        </div>
+        <div class="eco1">
+            <ul type="none">
+                <li><b>Enrolment Ecosystem</b></li>
+                <li>Registers</li>
+                <li>Enrolment Agencies</li>
+                <li>Adhaar Seva Kendra</li>
+            </ul>
+            <ul>
+                <li><b>Authentication Ecosystem</b></li>
+                <li>Operationnal Model</li>
+                <li>Authentication requesting Agency</li>
+                <li>Authentication service Agencies</li>
+            </ul>
+        </div>
+        <div class="manage1">
+            <ul>
+                <li><b>Media</b></li> 
+                <li>Adhaar Broadcast</li> 
+                <li>Quote,unquote</li> 
+                <li>Archive Press Releases</li> 
+                <li>Press Releases</li> 
+            </ul>
+            <ul>
+                <li><b>Resources</b></li> 
+                <li>Advertisements</li> 
+                <li>Photos</li> 
+                <li>Videos</li> 
+                  
+            </ul>
+            <ul>
+                <li><b>UIDAI Documents</b></li> 
+                <li>Annual Reports</li> 
+                <li>Handbooks</li> 
+                <li>Compendium</li> 
+                <li>Parliment Questions</li> 
+            </ul>
+        </div>
+        <div class="support1">
+            <ul>
+                <li><b>have any Questionss??</b></li>
+                <li>FAQ</li>
+                <li>Glorray </li>
+                <li>Adhaar address</li>
+                <li>Contact Us</li>
+            </ul>
+            <ul>
+                <li><b>customer support</b></li>
+                <li>call number</li>
+                <li>8####3687</li>
+                <li>address</li>
+                <li>details about us</li>
+            </ul>
+        </div>
+    </header>
+
+</body>
+
+</html>
